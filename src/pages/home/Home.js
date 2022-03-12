@@ -12,13 +12,10 @@ import AndroidIcon from '../../assets/android.png';
 // Components
 import GridSkillList from "../../components/GridSkillList/GridSkillList";
 import ListSkillList from "../../components/ListSkillList/ListSkillList";
-import FlipMove from "react-flip-move";
-import {useEffect, useState} from "react";
 
 
 // data
-import {buttons} from '../../data/data';
-import {getProjects, filterProjects} from "../../services/services";
+import Projects from "../../components/projects/Projects";
 
 
 
@@ -26,22 +23,6 @@ import {getProjects, filterProjects} from "../../services/services";
 function Home() {
 
 
-
-  let [filteredProjects, setFilteredProjects] = useState(null);
-  let [active, setActive] = useState("all");
-  let [showModal, setShowModal] = useState(false);
-
-  let handleProjects = (e) => {
-    let projectCategory = e.target.value;
-    setActive(projectCategory)
-    projectCategory !== "all"
-        ? setFilteredProjects(filterProjects(projectCategory))
-        : setFilteredProjects(getProjects());
-  }
-
-  useEffect(() => {
-    setFilteredProjects(getProjects())
-  }, [])
 
   return (
       <div className="Home">
@@ -153,31 +134,7 @@ function Home() {
       {/*  PORTFOLIO */}
         <div className="section portfolio container text-start">
           <h1 className="fw-bold w-25">Recently Done Apps</h1>
-          <div className="filters row">
-            {buttons && buttons.map((category, index) => (
-                <button key={index}
-                value={category.value}
-                className={`col-lg-1 col-md-2 col-sm-10 m-3 btn btn-outline-primary border-0 ${active === category.value ? "active" : ''}`}
-                onClick={handleProjects}>
-                  {category.name}
-                </button>
-            ))}
-          </div>
-          <FlipMove className="row justify-content-center">
-            {filteredProjects && filteredProjects.map(project => (
-                <div key={project.id} className={`grid-item col-lg-5 m-5 ${project.category}`}>
-                  <div className="image-container">
-                    <img src={project.thumb} alt={project.name} />
-                    <div className="card overlay" onClick={() => setShowModal(true)}>
-                    </div>
-                  </div>
-                  <div className="desc m-3">
-                    <h4 className="fw-bold">{project.name}</h4>
-                    <p className="text-muted">{`${project.description.substring(0, 100)}...`}</p>
-                  </div>
-                </div>
-            ))}
-          </FlipMove>
+          <Projects />
         </div>
 
       {/*  CONTACT*/}
