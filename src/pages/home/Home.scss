@@ -1,4 +1,102 @@
-
+@import '../../mixins';
+@import '../../variables';
 .Home {
+
+
+}
+
+.hero-text {
+
+
+  @include medium-up {
+    margin-top: 150px !important;
+  }
+}
+
+.hero-icon img {
+    height: 500px;
+    width: 700px;
+    display: none;
+
+    @include medium-up() {
+      display: block;
+    }
+
+}
+
+.section {
+  margin-top: 150px !important;
+}
+.introduction {
+  @include medium-up {
+    margin-top: 170px !important;
+  }
+
+  .intro-text {
+    @include medium-up {
+      margin-left: 200px !important;
+    }
+
+  }
+}
+
+.skills {
+
+}
+
+.service-box {
+  background-color: #F9F9FD;
+  cursor: pointer;
+  transition: .2s ease all;
+
+  &:hover {
+    background-color: #FFF;
+    box-shadow: 0 0 30px rgba(97, 85, 228, 0.2) !important;
+    transform: scale(1.1);
+  }
+}
+
+.contact {
+  background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+}
+
+// Portfolio
+
+.grid-item {
+
+  .image-container {
+
+
+    position: relative;
+
+    img {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      max-height: 600px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      opacity: 0;
+      width: 100%;
+      transition: .3s;
+      cursor: pointer;
+      background-color: rgba(97, 85, 228, 0.2);
+      border-radius: 5px;
+    }
+
+
+    &:hover {
+      .overlay {
+        opacity: 1;
+      }
+    }
+  }
 
 }

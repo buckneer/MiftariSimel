@@ -1,10 +1,11 @@
 import "./Portfolio.scss";
+import Heading from "../../components/heading/Heading";
 
 
 function Portfolio() {
   return (
       <div className="Portfolio">
-        <h1>Portfolio</h1>
+        <Heading title={"Portfolio"} />
       </div>
   );
 }

@@ -1,1 +1,42 @@
+@import 'variables';
+
+.btn-gradient {
+  background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+  min-width: 80px;
+  padding: 10px 30px;
+  color: #FFF;
+  box-shadow: 0 0 10px $primary;
+  border: 2px solid transparent;
+
+  &:hover {
+    background: #FFF;
+    box-shadow: 0 0 0;
+    border: 2px solid $primary;
+  }
+}
+
+.btn-gradient-outline {
+
+  min-width: 80px;
+  padding: 10px 30px;
+  border: 2px solid $primary;
+  background: #FFF;
+
+
+  &:hover {
+    background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+
+    color: #FFF;
+    box-shadow: 0 0 10px $primary;
+  }
+}
+
+.view-holder {
+  margin-top: 84px;
+}
+
+.cover-img {
+  height: auto;
+  width: 100%;
+}
 
