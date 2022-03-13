@@ -16,6 +16,7 @@ import ListSkillList from "../../components/ListSkillList/ListSkillList";
 
 // data
 import Projects from "../../components/projects/Projects";
+import cv from "../../assets/CV.pdf";
 
 
 
@@ -43,12 +44,12 @@ function Home() {
               </h2>
 
               <div className="buttons d-flex mt-5">
-                <button className="btn btn-gradient me-4">
+                <a href={"mailto:miftarisimel@gmail.com"} className="btn btn-gradient me-4">
                   Hire Me
-                </button>
-                <button className="btn btn-gradient-outline">
+                </a>
+                <a href={cv} target={"_blank"} className="btn btn-gradient-outline">
                   Get CV
-                </button>
+                </a>
               </div>
             </div>
             <div className="hero-icon col-lg-7 mt-5 overflow-hidden">
@@ -69,7 +70,7 @@ function Home() {
                 <h1 className="heading fw-bold text-start">LET ME INTRODUCE MYSELF</h1>
                 <p className="text-muted text-start">Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.</p>
                 <p className="text-muted text-start">Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.</p>
-                <button className="btn btn-gradient mt-5 text-center">Download CV</button>
+                <a className="btn btn-gradient mt-5 text-center" href={cv} target={"_blank"}>Download CV</a>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ function ListSkillList() {
   return (
       <div className="ListSkillList">
         {skills.map(skill => (
-          <div className="skill-box mt-3 ">
+          <div className="skill-box mt-3 " key={skill.name}>
             <div className="d-flex">
               <h4 className="fw-bold text-start">{skill.name}</h4>
               <h4 className="ms-auto">{skill.percent}%</h4>

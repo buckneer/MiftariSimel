@@ -5,6 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faPhone, faEnvelope, faPrint, faHome} from "@fortawesome/free-solid-svg-icons";
 import logo from '../../logo.svg';
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -56,16 +57,16 @@ function Footer() {
                     Projects
                   </h6>
                   <p>
-                    <a href="#!" className="text-reset">Android</a>
+                    <Link to="/portfolio" className="text-reset">Android</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">React</a>
+                    <Link to="/portfolio" className="text-reset">React</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Vue</a>
+                    <Link to="/portfolio" className="text-reset">Vue</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Native</a>
+                    <Link to="/portfolio" className="text-reset">Native</Link>
                   </p>
                 </div>
 
@@ -77,16 +78,16 @@ function Footer() {
                     Useful links
                   </h6>
                   <p>
-                    <a href="#!" className="text-reset">Pricing</a>
+                    <Link to="/" className="text-reset">Home</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Settings</a>
+                    <Link to="/services" className="text-reset">Services</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Orders</a>
+                    <Link to="/about" className="text-reset">About</Link>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">Help</a>
+                    <Link to="/contact" className="text-reset">Contact</Link>
                   </p>
                 </div>
 

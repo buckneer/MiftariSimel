@@ -36,7 +36,7 @@ function GridSkillList() {
 
         <div className="row text-center ms-lg-5">
           {skills.map(skill => (
-              <div className="card col-5 m-3 shadow">
+              <div className="card col-5 m-3 shadow" key={skill.name}>
                 <CircularProgressbar styles={style} className="p-3" value={skill.percent} text={`${skill.percent}%`} />
                 <h2 className="fw-bold p-2">{skill.name}</h2>
               </div>
