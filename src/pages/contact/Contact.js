@@ -24,7 +24,7 @@ function Contact() {
         </div>
 
         <div className={"email-contact container bg-secondary w-75"}>
-          <h1 className={"section fw-bold text-center py-5 text-light"}>Other ways to conctact me</h1>
+          <h1 className={"section fw-bold text-center py-5 text-light"}>Other ways to contact me</h1>
           <div className={"row text-center pb-5"}>
             <h1 className={"fw-bold text-white"}>Still Working on this.... sorry! :(</h1>
           </div>

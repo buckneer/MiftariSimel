@@ -29,7 +29,7 @@ function Navigation() {
                     </span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-2">
+              <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-2">
                 <li className="nav-item">
                   <NavLink className={`nav-link ${isMobile ? 'text-white' : 'text-dark'}`} to="/">HOME</NavLink>
                 </li>

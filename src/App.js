@@ -8,6 +8,7 @@ import Contact from "./pages/contact/Contact";
 import Navigation from "./components/navigation/Navigation";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
+import PortfolioSingle from "./pages/portfoliosingle/PortfolioSingle";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/services" element={<Services />}/>
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio/:id" element={<PortfolioSingle />} />
             </Routes>
           </ScrollToTop>
         </div>
