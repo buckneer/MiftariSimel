@@ -3,7 +3,7 @@ let projects = [
     id: 1,
     name: "Magic Match",
     img: ['/img/magic-match/1.jpeg', '/img/magic-match/2.jpeg', '/img/magic-match/3.jpeg', '/img/magic-match/4.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "A memory game built in HTML, JavaScript, CSS, Bootstrap and React!",
     category: "react",
     thumb: '/img/thumbs/magic-match.jpeg'
   },
@@ -11,7 +11,7 @@ let projects = [
     id: 2,
     name: "Portfolio",
     img: ['/img/portfolio/1.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "A portfolio website as an example of website in Vue.js.",
     category: "vue",
     thumb: '/img/thumbs/portfolio.jpeg'
   },
@@ -19,7 +19,7 @@ let projects = [
     id: 3,
     name: "MusicShare",
     img: ['/img/musicshare/1.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "A place to share your music with others in just seconds. It was built using HTML, CSS and Bootstrap",
     category: "native",
     thumb: '/img/thumbs/music-share.jpeg'
   },
@@ -27,7 +27,7 @@ let projects = [
     id: 4,
     name: "Ekonomsko-turisticka Skola",
     img: ['/img/school/1.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Educational website built with HTML, CSS, Bootstrap, and JS",
     category: "native",
     thumb: '/img/thumbs/school.jpeg'
   },
@@ -35,7 +35,7 @@ let projects = [
     id: 5,
     name: "BabySi",
     img: ['/img/babysi/1.jpeg', '/img/babysi/2.jpeg', '/img/babysi/3.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Find babysitters around you in just seconds! Built for Android",
     category: "android",
     thumb: '/img/thumbs/baby-si.jpeg'
   },
@@ -43,7 +43,7 @@ let projects = [
     id: 6,
     name: "Guessing Game",
     img: ['/img/guess/1.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Fun guessing game made for Android",
     category: "android",
     thumb: '/img/thumbs/guess-word.jpeg'
   },
@@ -51,7 +51,7 @@ let projects = [
     id: 7,
     name: "MyDentSched",
     img: ['/img/dent/1.jpeg', '/img/dent/2.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Perfect place to keep all your notes about your patients as a dentist!",
     category: "android",
     thumb: '/img/thumbs/dent-sched.jpeg'
   },
@@ -59,7 +59,7 @@ let projects = [
     id: 8,
     name: "Nasa News",
     img: ['/img/nasanews/1.jpeg', '/img/nasanews/2.jpeg', '/img/nasanews/3.jpeg', '/img/nasanews/4.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "All news from NASA right on your phone, with push notifications and Astronomy Picture of the Day!",
     category: "android",
     thumb: '/img/thumbs/nasa-news.jpeg'
   },
@@ -67,7 +67,7 @@ let projects = [
     id: 9,
     name: "Nature Gallery",
     img: ['/img/nature/1.jpeg', '/img/nature/2.jpeg', '/img/nature/3.jpeg', "/img/nature/4.jpeg", '/img/nature/5.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Share all your photos on our famous platform!",
     category: "android",
     thumb: '/img/thumbs/nature-gallery.jpeg'
   },
@@ -75,7 +75,7 @@ let projects = [
     id: 10,
     name: "Tonight's Movie",
     img: ['/img/tonights/1.jpeg', '/img/tonights/2.jpeg', '/img/tonights/3.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Perfect for the people who love watching movies, but don't know what to watch",
     category: "android",
     thumb: '/img/thumbs/tonights.jpeg'
   },
@@ -83,9 +83,25 @@ let projects = [
     id: 11,
     name: "Online Karma Shop",
     img: ['/img/shop/1.jpeg'],
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec dignissim nulla. Nam sagittis sit amet orci ut placerat. Cras purus libero, venenatis id dui a, lobortis molestie est.",
+    description: "Online store",
     category: "native",
     thumb: '/img/thumbs/shop.jpeg'
+  },
+  {
+    id: 12,
+    name: "My Money",
+    img: ['/img/my-money/1.jpeg', '/img/my-money/2.jpeg'],
+    description: "Keep track of your spending in an elegant and easy way!",
+    category: "react",
+    thumb: '/img/thumbs/my-money.jpeg'
+  },
+  {
+    id: 13,
+    name: "Vulcan RPS",
+    img: ['/img/vulcanrps/1.jpeg', '/img/vulcanrps/2.jpeg', '/img/vulcanrps/3.jpeg'],
+    description: "InGame store for Vulcan RPS with PayPal payment integration",
+    category: "react",
+    thumb: '/img/thumbs/vulcanrps.jpeg'
   }
 
 //  Add more

@@ -36,7 +36,7 @@ function Projects({isPortfolio}) {
           {buttons && buttons.map((category, index) => (
               <button key={index}
                       value={category.value}
-                      className={`col-lg-1 col-md-2 col-sm-10 m-3 btn btn-outline-primary border-0 rounded-pill ${active === category.value ? "active" : ''}`}
+                      className={`col-lg-1 mx-md-3 my-2 btn btn-outline-primary border-0 rounded-pill ${active === category.value ? "active" : ''}`}
                       onClick={handleProjects}>
                 {category.name}
               </button>
