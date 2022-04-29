@@ -3,11 +3,11 @@ import "./ListSkillList.scss";
 let skills = [
   {
     name: "PHP",
-    percent: 60
+    percent: 90
   },
   {
     name: "Java",
-    percent: 70
+    percent: 80
   },
   {
     name: "XML",

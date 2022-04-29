@@ -8,7 +8,7 @@ import DesignIcon from '../../assets/design.png';
 import UxIcon from '../../assets/ux.png';
 import WebIcon from '../../assets/web-development.png';
 import AndroidIcon from '../../assets/android.png';
-
+import fullStackLogo from "../../assets/fullstack.svg";
 // Components
 import GridSkillList from "../../components/GridSkillList/GridSkillList";
 import ListSkillList from "../../components/ListSkillList/ListSkillList";
@@ -28,8 +28,8 @@ function Home() {
   return (
       <div className="Home">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-5 mt-5 hero-text">
+          <div className="row justify-content-center">
+            <div className="col-lg-5 mt-5 hero-text ms-2">
               <h2>Hello, </h2>
               <h1 className="fw-light">I am <strong className="text-primary fw-bold">Miftari Simel</strong></h1>
               <h2 className="text-primary fw-bold font-monospace">
@@ -52,8 +52,8 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="hero-icon col-lg-7 mt-5 overflow-hidden">
-              <img src={HeroCover}/>
+            <div className="hero-icon col-lg-6 mt-5 overflow-hidden">
+              <img src={fullStackLogo}/>
             </div>
           </div>
         </div>
@@ -68,8 +68,7 @@ function Home() {
               </div>
               <div className="intro-text col-lg-5 ms-lg-5 text-center">
                 <h1 className="heading fw-bold text-start">LET ME INTRODUCE MYSELF</h1>
-                <p className="text-muted text-start">Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.</p>
-                <p className="text-muted text-start">Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.</p>
+                <p className="text-muted text-start">I am Miftari Simel, a full-stack software developer from Serbia. I am currently on my way to getting Bachelor's degree in Computer Science. I love problem-solving and learning new things.</p>
                 <a className="btn btn-gradient mt-5 text-center" href={cv} target={"_blank"}>Download CV</a>
               </div>
             </div>
@@ -106,25 +105,26 @@ function Home() {
               <div className="service-box col-lg-2 col-md-4 mx-5 my-2 justify-content-center text-center rounded">
                 <img className="p-3" src={DesignIcon} width="104" height="106" alt="Design icon" />
                 <h4 className="fw-bold">WEB & MOBILE DESIGN</h4>
-                <p>Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their.</p>
+                <p>{"Get your Android, iOS and Web apps designed by experienced professional.".substring(0, 50) + "..."}</p>
               </div>
               <div className="service-box col-lg-2 col-md-4 mx-5 my-2 justify-content-center text-center rounded">
                 <img className="p-3" src={UxIcon} width="104" height="106" alt="Design icon" />
                 <h4 className="fw-bold">FRONT END</h4>
                 <br />
-                <p>Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their.</p>
+                <p>{"Get your new Web app, with all new technologies like React, Vue or Bootstrap".substring(0, 50) + "..."}</p>
               </div>
               <div className="service-box col-lg-2 col-md-4 mx-5 my-2 justify-content-center text-center rounded">
                 <img className="p-3" src={WebIcon} width="104" height="106" alt="Design icon" />
                 <h4 className="fw-bold">BACK END</h4>
                 <br />
-                <p>Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their.</p>
+                <p>{"A backend app or API, built with Django, Express, Java Spring, or PHP Keep your data in Firebase, MySQL or NoSQL Databases".substring(0, 50) + "..."}</p>
               </div>
               <div className="service-box col-lg-2 col-md-4 mx-5 my-2 justify-content-center text-center rounded">
                 <img className="p-3" src={AndroidIcon} width="104" height="106" alt="Design icon" />
                 <h4 className="fw-bold">ANDROID</h4>
                 <br />
-                <p>Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their.</p>
+                <p>{"When it comes to Android, there many ways of making Android App such as React Native, Electron\n" +
+                    "                  C++ etc. But the best one is Native programming. By using Kotlin and XML or Composer, You can get fastest, and best apps.".substring(0, 20) + "..."}</p>
               </div>
             </div>
           </div>

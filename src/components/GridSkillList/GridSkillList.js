@@ -7,11 +7,11 @@ import 'react-circular-progressbar/dist/styles.css';
 let skills = [
   {
     name: "HTML",
-    percent: 70
+    percent: 100
   },
   {
     name: "CSS",
-    percent: 90
+    percent: 100
   },
   {
     name: 'JS',
@@ -19,7 +19,7 @@ let skills = [
   },
   {
     name: "Kotlin",
-    percent: 80
+    percent: 90
   }
 ]
 

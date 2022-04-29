@@ -18,22 +18,19 @@ function Footer() {
               <span className="fw-bold">Get connected with me on social networks:</span>
             </div>
             <div className="text-primary">
-              <a href="" className="me-4 text-reset">
+              <a href="https://www.facebook.com/simel.miftari" className="me-4 text-reset">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="" className="me-4 text-reset">
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a href="" className="me-4 text-reset">
+              <a href="mailto:miftarisimel@gmail.com" className="me-4 text-reset">
                 <FontAwesomeIcon icon={faGoogle} />
               </a>
-              <a href="" className="me-4 text-reset">
+              <a href="https://www.instagram.com/ssiimmel/" className="me-4 text-reset">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-              <a href="" className="me-4 text-reset">
+              <a href="https://www.linkedin.com/in/simel-miftari-b3864215a/" className="me-4 text-reset">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="" className="me-4 text-reset">
+              <a href="https://www.github.com/buckneer/" className="me-4 text-reset">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
